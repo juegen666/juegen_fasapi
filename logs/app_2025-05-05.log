@@ -1,0 +1,19 @@
+2025-05-05 00:08:31.141 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-05-05 00:08:31.142 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-05-05 00:08:31.212 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-05-05 00:08:31.214 | INFO     | main:<module>:27 - 中间件注册成功
+2025-05-05 00:08:31.356 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-05-05 00:08:31.356 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-05-05 00:08:31.357 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-05-05 00:08:31.358 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-05-05 00:08:31.358 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-05-05 00:08:31.359 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-05-05 00:08:31.369 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-05-05 00:08:31.369 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-05-05 00:08:31.370 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-05-05 00:08:31.370 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-05-05 00:08:31.372 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-05-05 00:08:31.372 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-05-05 00:08:31.373 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-05-05 00:08:31.374 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-05-05 00:08:31.374 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===

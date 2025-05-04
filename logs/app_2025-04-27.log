@@ -1,0 +1,527 @@
+2025-04-27 17:26:16.902 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:26:16.902 | INFO     | __main__:<module>:27 - 中间件注册成功
+2025-04-27 17:26:16.904 | INFO     | __main__:<module>:85 - 启动服务器
+2025-04-27 17:26:18.767 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:26:18.768 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 17:26:18.891 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:26:18.894 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 17:26:19.130 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 17:26:19.132 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 17:26:19.132 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 17:26:19.132 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 17:26:19.132 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 17:26:19.135 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 17:26:19.152 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 17:26:19.152 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 17:26:19.152 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 17:26:19.156 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 17:26:19.156 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 17:26:19.158 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 17:26:19.158 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 17:26:19.159 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 17:26:19.160 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 17:26:35.089 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:26:35.494 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:26:36.066 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:26:48.495 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 17:26:48.497 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 17:26:48.498 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 17:26:48.499 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 17:26:48.499 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 17:26:50.727 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:26:50.729 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 17:26:50.809 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:26:50.810 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 17:26:50.995 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 17:26:50.995 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 17:26:50.995 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 17:26:50.995 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 17:26:50.995 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 17:26:50.995 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 17:26:51.013 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 17:26:51.019 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 17:26:51.019 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 17:26:51.025 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 17:26:51.026 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 17:26:51.026 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 17:26:51.026 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 17:26:51.026 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 17:26:51.031 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 17:26:57.313 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:27:00.266 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:27:11.898 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 17:27:11.900 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 17:27:11.900 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 17:27:11.903 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 17:27:11.903 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 17:27:14.095 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:27:14.095 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 17:27:14.183 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:27:14.184 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 17:27:14.361 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 17:27:14.362 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 17:27:14.364 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 17:27:14.364 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 17:27:14.365 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 17:27:14.365 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 17:27:14.382 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 17:27:14.382 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 17:27:14.382 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 17:27:14.382 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 17:27:14.387 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 17:27:14.387 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 17:27:14.387 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 17:27:14.387 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 17:27:14.389 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 17:27:36.892 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:27:37.941 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:28:27.283 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 17:28:27.286 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 17:28:27.287 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 17:28:27.287 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 17:28:27.288 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 17:28:29.644 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:28:29.644 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 17:28:29.733 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:28:29.733 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 17:28:29.913 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 17:28:29.913 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 17:28:29.913 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 17:28:29.921 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 17:28:29.921 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 17:28:29.921 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 17:28:29.929 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 17:28:29.937 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 17:28:29.937 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 17:28:29.937 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 17:28:29.937 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 17:28:29.937 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 17:28:29.937 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 17:28:29.937 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 17:28:29.937 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 17:28:31.333 | ERROR    | main:http_exception_handler:54 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 17:29:53.198 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 17:29:53.199 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 17:29:53.199 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 17:29:53.199 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 17:29:53.199 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 17:29:55.520 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:29:55.522 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 17:29:55.603 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:29:55.603 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 17:29:55.779 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 17:29:55.781 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 17:29:55.781 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 17:29:55.781 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 17:29:55.781 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 17:29:55.784 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 17:29:55.797 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 17:29:55.797 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 17:29:55.797 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 17:29:55.797 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 17:29:55.803 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 17:29:55.803 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 17:29:55.803 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 17:29:55.803 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 17:29:55.806 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 17:29:56.763 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 17:29:56.763 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 17:29:56.763 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 17:29:56.763 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 17:29:56.763 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 17:29:59.118 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:29:59.118 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 17:29:59.213 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:29:59.213 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 17:29:59.411 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 17:29:59.411 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 17:29:59.411 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 17:29:59.411 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 17:29:59.417 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 17:29:59.417 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 17:29:59.432 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 17:29:59.432 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 17:29:59.436 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 17:29:59.436 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 17:29:59.438 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 17:29:59.438 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 17:29:59.438 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 17:29:59.438 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 17:29:59.443 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 17:30:14.490 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 17:30:14.492 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 17:30:14.492 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 17:30:14.493 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 17:30:14.494 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 17:30:16.633 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:30:16.634 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 17:30:16.721 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 17:30:16.723 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 17:30:16.900 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 17:30:16.900 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 17:30:16.902 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 17:30:16.902 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 17:30:16.903 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 17:30:16.903 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 17:30:16.919 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 17:30:16.920 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 17:30:16.921 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 17:30:16.922 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 17:30:16.922 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 17:30:16.924 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 17:30:16.924 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 17:30:16.924 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 17:30:16.926 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 17:30:16.936 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 400)
+2025-04-27 18:29:43.699 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 18:29:43.740 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 18:29:43.749 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 18:29:43.754 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 18:29:43.754 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:09:23.009 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:09:23.012 | INFO     | __main__:<module>:27 - 中间件注册成功
+2025-04-27 20:09:23.014 | INFO     | __main__:<module>:87 - 启动服务器
+2025-04-27 20:09:24.209 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:09:24.210 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:09:24.308 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:09:24.309 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:09:24.495 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:09:24.496 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:09:24.496 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:09:24.498 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:09:24.498 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:09:24.498 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:09:24.506 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:09:24.507 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:09:24.508 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:09:24.508 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:09:24.509 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:09:24.509 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:09:24.510 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:09:24.510 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:09:24.510 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:09:27.726 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:09:32.462 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:09:34.286 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 400)
+2025-04-27 20:09:37.930 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:09:38.798 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:09:49.610 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 400)
+2025-04-27 20:12:24.103 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:12:24.732 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:12:32.725 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:12:32.725 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:12:32.726 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:12:32.726 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:12:32.726 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:12:34.294 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:12:34.294 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:12:34.367 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:12:34.367 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:12:34.508 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:12:34.508 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:12:34.508 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:12:34.508 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:12:34.508 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:12:34.508 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:12:34.508 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:12:34.508 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:12:34.508 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:12:34.522 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:12:34.522 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:12:34.523 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:12:34.523 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:12:34.524 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:12:34.525 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:12:34.531 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:12:37.026 | ERROR    | main:http_exception_handler:56 - HTTP错误: Not Found (状态码: 404)
+2025-04-27 20:12:45.378 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:12:45.379 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:12:45.380 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:12:45.380 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:12:45.380 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:12:46.852 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:12:46.852 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:12:46.920 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:12:46.920 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:12:47.070 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:12:47.070 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:12:47.070 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:12:47.073 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:12:47.073 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:12:47.073 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:12:47.079 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:12:47.082 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:12:47.082 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:12:47.083 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:12:47.084 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:12:47.086 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:12:47.086 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:12:47.087 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:12:47.087 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:12:47.462 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 400)
+2025-04-27 20:14:34.158 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 400)
+2025-04-27 20:14:53.481 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:14:53.482 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:14:53.482 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:14:53.483 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:14:53.483 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:14:55.001 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:14:55.004 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:14:55.065 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:14:55.065 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:14:55.212 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:14:55.212 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:14:55.212 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:14:55.212 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:14:55.212 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:14:55.212 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:14:55.229 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:14:55.230 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:14:55.230 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:14:55.231 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:14:55.232 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:14:55.233 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:14:55.233 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:14:55.233 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:14:55.234 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:15:39.905 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:15:39.906 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:15:39.906 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:15:39.906 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:15:39.907 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:15:41.359 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:15:41.360 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:15:41.425 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:15:41.427 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:15:41.570 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:15:41.570 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:15:41.571 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:15:41.571 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:15:41.572 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:15:41.572 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:15:41.582 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:15:41.583 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:15:41.583 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:15:41.584 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:15:41.585 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:15:41.586 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:15:41.586 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:15:41.586 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:15:41.587 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:15:48.368 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 400)
+2025-04-27 20:29:02.565 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:29:02.566 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:29:02.567 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:29:02.567 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:29:02.568 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:29:03.995 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:29:03.995 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:29:04.059 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:29:04.062 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:29:04.203 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:29:04.203 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:29:04.203 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:29:04.203 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:29:04.203 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:29:04.203 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:29:04.216 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:29:04.216 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:29:04.216 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:29:04.221 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:29:04.222 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:29:04.222 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:29:04.222 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:29:04.223 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:29:04.224 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:29:07.145 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 200)
+2025-04-27 20:30:48.315 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:30:48.315 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:30:48.317 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:30:48.317 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:30:48.317 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:30:49.653 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:30:49.654 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:30:49.717 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:30:49.717 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:30:49.853 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:30:49.854 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:30:49.854 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:30:49.856 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:30:49.856 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:30:49.857 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:30:49.864 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:30:49.865 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:30:49.865 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:30:49.866 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:30:49.866 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:30:49.867 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:30:49.867 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:30:49.867 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:30:49.868 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:30:57.677 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:30:57.677 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:30:57.677 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:30:57.677 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:30:57.679 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:30:59.129 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:30:59.130 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:30:59.192 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:30:59.196 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:30:59.320 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:30:59.321 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:30:59.322 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:30:59.324 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:30:59.324 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:30:59.325 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:30:59.328 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:30:59.328 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:30:59.328 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:30:59.335 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:30:59.336 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:30:59.336 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:30:59.337 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:30:59.337 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:30:59.338 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:31:08.989 | ERROR    | main:http_exception_handler:56 - HTTP错误: 测试错误 (状态码: 501)
+2025-04-27 20:31:41.689 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:31:41.689 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:31:41.692 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:31:41.692 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:31:41.692 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:31:42.979 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:31:42.979 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:31:43.044 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:31:43.045 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:31:43.180 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:31:43.181 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:31:43.182 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:31:43.183 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:31:43.183 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:31:43.184 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:31:43.194 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:31:43.194 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:31:43.195 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:31:43.196 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:31:43.197 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:31:43.197 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:31:43.198 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:31:43.198 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:31:43.198 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:32:06.581 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 20:32:06.582 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 20:32:06.582 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 20:32:06.584 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 20:32:06.584 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 20:32:07.955 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:32:07.956 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:32:08.020 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:32:08.020 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:32:08.161 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:32:08.162 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:32:08.162 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:32:08.164 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:32:08.164 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:32:08.164 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:32:08.173 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:32:08.173 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:32:08.175 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:32:08.175 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:32:08.177 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:32:08.177 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:32:08.177 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:32:08.177 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:32:08.179 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 20:56:08.926 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:56:08.928 | INFO     | __main__:<module>:27 - 中间件注册成功
+2025-04-27 20:56:08.928 | INFO     | __main__:<module>:87 - 启动服务器
+2025-04-27 20:56:10.740 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:56:10.741 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 20:56:10.962 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 20:56:10.963 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 20:56:11.247 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 20:56:11.256 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 20:56:11.258 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 20:56:11.259 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 20:56:11.259 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 20:56:11.260 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 20:56:11.272 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 20:56:11.274 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 20:56:11.275 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 20:56:11.277 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 20:56:11.277 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 20:56:11.279 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 20:56:11.279 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 20:56:11.280 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 20:56:11.281 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 21:13:53.877 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 21:13:53.879 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 21:13:53.881 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 21:13:53.881 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 21:13:53.881 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 21:14:24.810 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 21:14:24.812 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 21:14:24.898 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 21:14:24.900 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 21:14:25.105 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 21:14:25.107 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 21:14:25.110 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 21:14:25.111 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 21:14:25.112 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 21:14:25.113 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 21:14:25.141 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 21:14:25.141 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 21:14:25.141 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 21:14:25.145 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 21:14:25.146 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 21:14:25.146 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 21:14:25.149 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 21:14:25.149 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 21:14:25.149 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 21:14:41.303 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 21:14:41.304 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 21:14:41.304 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 21:14:41.304 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 21:14:41.307 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 21:14:43.669 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 21:14:43.669 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 21:14:43.750 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 21:14:43.754 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 21:14:43.948 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 21:14:43.949 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 21:14:43.950 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 21:14:43.950 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 21:14:43.950 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 21:14:43.952 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 21:14:43.963 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 21:14:43.965 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 21:14:43.966 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 21:14:43.966 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 21:14:43.968 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 21:14:43.968 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 21:14:43.968 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 21:14:43.970 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 21:14:43.970 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===
+2025-04-27 21:14:44.297 | INFO     | core.lifespan:lifespan:118 - === 应用正在关闭 ===
+2025-04-27 21:14:44.299 | INFO     | database.pgsql:close_db:62 - 数据库连接已关闭
+2025-04-27 21:14:44.300 | INFO     | core.lifespan:lifespan:123 - 数据库连接已关闭
+2025-04-27 21:14:44.300 | INFO     | core.lifespan:lifespan:128 - 所有资源已释放
+2025-04-27 21:14:44.300 | INFO     | core.lifespan:lifespan:129 - === 应用已关闭 ===
+2025-04-27 21:14:46.422 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 21:14:46.422 | INFO     | __mp_main__:<module>:27 - 中间件注册成功
+2025-04-27 21:14:46.521 | INFO     | middleware.logger_middleware:register_middleware:267 - 已注册内部API日志中间件
+2025-04-27 21:14:46.521 | INFO     | main:<module>:27 - 中间件注册成功
+2025-04-27 21:14:46.708 | INFO     | core.lifespan:lifespan:88 - === 应用启动 ===
+2025-04-27 21:14:46.708 | INFO     | core.lifespan:lifespan:89 - 应用名称: FastAPI应用 v1.0.0
+2025-04-27 21:14:46.708 | INFO     | core.lifespan:log_system_info:71 - 系统信息: Windows 11 (10.0.22631)
+2025-04-27 21:14:46.708 | INFO     | core.lifespan:log_system_info:72 - Python版本: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+2025-04-27 21:14:46.714 | INFO     | core.lifespan:log_system_info:73 - 运行环境: development
+2025-04-27 21:14:46.716 | INFO     | core.lifespan:log_system_info:74 - 调试模式: 启用
+2025-04-27 21:14:46.732 | INFO     | core.lifespan:lifespan:98 - API路由注册成功
+2025-04-27 21:14:46.732 | INFO     | database.pgsql:init_db:20 - 成功导入User模型: <class 'model.user.User'>
+2025-04-27 21:14:46.736 | INFO     | database.pgsql:init_db:23 - 找到Tortoise ORM模型类: [<class 'model.operation_log.OperationLog'>, <class 'model.user.User'>, <class 'model.user.test'>]
+2025-04-27 21:14:46.736 | INFO     | database.pgsql:init_db:35 - Tortoise配置: {'connections': {'default': {'engine': 'tortoise.backends.asyncpg', 'credentials': {'host': 'localhost', 'port': 5432, 'user': 'root', 'password': '******', 'database': 'postgres'}}}, 'apps': {'models': {'models': ['model', 'aerich.models'], 'default_connection': 'default'}}, 'use_tz': False, 'timezone': 'Asia/Shanghai'}
+2025-04-27 21:14:46.739 | INFO     | database.pgsql:init_db:38 - 使用register_tortoise初始化数据库连接...
+2025-04-27 21:14:46.740 | INFO     | database.pgsql:init_db:46 - 数据库初始化成功
+2025-04-27 21:14:46.741 | INFO     | core.lifespan:lifespan:104 - 数据库连接初始化成功
+2025-04-27 21:14:46.742 | INFO     | core.lifespan:lifespan:112 - 所有资源初始化完成
+2025-04-27 21:14:46.742 | INFO     | core.lifespan:lifespan:113 - === 应用启动完成 ===

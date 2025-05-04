@@ -1,0 +1,30 @@
+2025-04-25 00:20:28.254 | ERROR    | api.internal.user.user:create_user:113 - 创建用户时发生错误: duplicate key value violates unique constraint "user_user_phone_key"
+DETAIL:  Key (user_phone)=() already exists.
+2025-04-25 00:29:31.259 | ERROR    | main:validation_exception_handler:44 - 请求验证错误: [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': {'username': 'pxldedawd', 'nickname': '', 'user_type': 2, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '13509021546', 'client_host': ''}, 'url': 'https://errors.pydantic.dev/2.7/v/missing'}]
+2025-04-25 00:29:31.261 | ERROR    | main:validation_exception_handler:45 - 错误详情: [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': {'username': 'pxldedawd', 'nickname': '', 'user_type': 2, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '13509021546', 'client_host': ''}, 'url': 'https://errors.pydantic.dev/2.7/v/missing'}]
+2025-04-25 00:29:31.263 | ERROR    | main:validation_exception_handler:47 - 客户端提交的数据: {'username': 'pxldedawd', 'nickname': '', 'user_type': 2, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '13509021546', 'client_host': ''}
+2025-04-25 00:29:47.879 | ERROR    | main:validation_exception_handler:44 - 请求验证错误: [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': {'username': 'dahuwdaw', 'nickname': 'dadawd', 'user_type': 2, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '13509021544', 'user_email': '1527896724@qq.ccom', 'client_host': ''}, 'url': 'https://errors.pydantic.dev/2.7/v/missing'}]
+2025-04-25 00:29:47.882 | ERROR    | main:validation_exception_handler:45 - 错误详情: [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': {'username': 'dahuwdaw', 'nickname': 'dadawd', 'user_type': 2, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '13509021544', 'user_email': '1527896724@qq.ccom', 'client_host': ''}, 'url': 'https://errors.pydantic.dev/2.7/v/missing'}]
+2025-04-25 00:29:47.883 | ERROR    | main:validation_exception_handler:47 - 客户端提交的数据: {'username': 'dahuwdaw', 'nickname': 'dadawd', 'user_type': 2, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '13509021544', 'user_email': '1527896724@qq.ccom', 'client_host': ''}
+2025-04-25 00:36:48.489 | ERROR    | main:validation_exception_handler:44 - 请求验证错误: [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': {'username': 'pxl', 'nickname': 'Newbie', 'user_type': 0, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '', 'client_host': ''}, 'url': 'https://errors.pydantic.dev/2.7/v/missing'}]
+2025-04-25 00:36:48.491 | ERROR    | main:validation_exception_handler:45 - 错误详情: [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': {'username': 'pxl', 'nickname': 'Newbie', 'user_type': 0, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '', 'client_host': ''}, 'url': 'https://errors.pydantic.dev/2.7/v/missing'}]
+2025-04-25 00:36:48.493 | ERROR    | main:validation_exception_handler:47 - 客户端提交的数据: {'username': 'pxl', 'nickname': 'Newbie', 'user_type': 0, 'user_status': 1, 'sex': 1, 'remarks': '', 'user_phone': '', 'client_host': ''}
+2025-04-25 00:39:02.690 | ERROR    | api.internal.user.user:update_user:204 - 更新用户时发生错误: duplicate key value violates unique constraint "user_user_phone_key"
+DETAIL:  Key (user_phone)=() already exists.
+2025-04-25 00:39:09.666 | ERROR    | api.internal.user.user:update_user:204 - 更新用户时发生错误: duplicate key value violates unique constraint "user_user_phone_key"
+DETAIL:  Key (user_phone)=() already exists.
+2025-04-25 00:39:38.433 | ERROR    | api.internal.user.user:update_user:204 - 更新用户时发生错误: duplicate key value violates unique constraint "user_user_phone_key"
+DETAIL:  Key (user_phone)=() already exists.
+2025-04-25 00:39:46.110 | ERROR    | api.internal.user.user:update_user:204 - 更新用户时发生错误: duplicate key value violates unique constraint "user_user_phone_key"
+DETAIL:  Key (user_phone)=() already exists.
+2025-04-25 00:40:11.266 | ERROR    | api.internal.user.user:update_user:204 - 更新用户时发生错误: duplicate key value violates unique constraint "user_user_phone_key"
+DETAIL:  Key (user_phone)=() already exists.
+2025-04-25 00:41:41.459 | ERROR    | api.internal.user.user:create_user:118 - 创建用户时发生错误: duplicate key value violates unique constraint "user_user_phone_key"
+DETAIL:  Key (user_phone)=() already exists.
+2025-04-25 20:45:57.557 | ERROR    | middleware.logger_middleware:log_internal_requests:81 - 请求处理异常: OPTIONS /api/internal/users/create_user - 异常: user_id is non nullable field, but null was passed - 处理时间: 4.45ms
+2025-04-25 20:46:37.330 | ERROR    | middleware.logger_middleware:log_internal_requests:81 - 请求处理异常: OPTIONS /api/internal/users/login - 异常: user_id is non nullable field, but null was passed - 处理时间: 2.88ms
+2025-04-25 20:47:25.755 | ERROR    | main:http_exception_handler:49 - HTTP错误: Method Not Allowed (状态码: 405)
+2025-04-25 20:49:08.328 | ERROR    | main:http_exception_handler:49 - HTTP错误: Method Not Allowed (状态码: 405)
+2025-04-25 20:56:13.602 | ERROR    | middleware.logger_middleware:log_internal_requests:81 - 请求处理异常: OPTIONS /api/internal/users/get_user_list - 异常: user_id is non nullable field, but null was passed - 处理时间: 4.46ms
+2025-04-25 20:56:32.760 | ERROR    | middleware.logger_middleware:log_internal_requests:81 - 请求处理异常: OPTIONS /api/internal/users/get_user_list - 异常: user_id is non nullable field, but null was passed - 处理时间: 3.26ms
+2025-04-25 20:56:58.714 | ERROR    | middleware.logger_middleware:log_internal_requests:81 - 请求处理异常: OPTIONS /api/internal/users/get_user_list - 异常: user_id is non nullable field, but null was passed - 处理时间: 3.83ms

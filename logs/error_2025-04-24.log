@@ -1,0 +1,256 @@
+2025-04-24 01:43:15.193 | ERROR    | core.lifespan:lifespan:108 - 数据库连接初始化失败: object NoneType can't be used in 'await' expression
+2025-04-24 01:43:15.194 | CRITICAL | core.lifespan:lifespan:110 - 应用无法正常启动，请检查数据库配置
+2025-04-24 01:44:56.202 | ERROR    | main:get_users:145 - 获取用户列表失败: 'NoneType' object is not iterable
+2025-04-24 01:45:04.418 | ERROR    | main:create_user:124 - 创建用户失败: 'NoneType' object is not iterable
+2025-04-24 01:45:58.215 | ERROR    | main:create_user:124 - 创建用户失败: 'NoneType' object is not iterable
+2025-04-24 01:47:40.792 | ERROR    | main:create_user:123 - 创建用户失败: 'NoneType' object is not iterable
+2025-04-24 01:47:55.460 | ERROR    | main:create_user:123 - 创建用户失败: 'NoneType' object is not iterable
+2025-04-24 01:48:17.911 | ERROR    | database.pgsql:get_db_version:50 - 获取数据库版本失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:48:17.913 | ERROR    | main:test_db:103 - 数据库连接失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:06.975 | ERROR    | database.pgsql:get_db_version:50 - 获取数据库版本失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:06.976 | ERROR    | main:test_db:100 - 数据库连接失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:08.031 | ERROR    | database.pgsql:get_db_version:50 - 获取数据库版本失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:08.033 | ERROR    | main:test_db:100 - 数据库连接失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:25.931 | ERROR    | database.pgsql:get_db_version:50 - 获取数据库版本失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:25.936 | ERROR    | main:test_db:100 - 数据库连接失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:27.009 | ERROR    | database.pgsql:get_db_version:50 - 获取数据库版本失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:50:27.009 | ERROR    | main:test_db:100 - 数据库连接失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:54:19.734 | ERROR    | main:create_user:114 - 创建用户失败: 'NoneType' object is not iterable
+2025-04-24 01:54:29.928 | ERROR    | database.pgsql:get_db_version:50 - 获取数据库版本失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 01:54:29.930 | ERROR    | main:test_db:93 - 数据库连接失败: DB configuration not initialised. Make sure to call Tortoise.init with a valid configuration before attempting to create connections.
+2025-04-24 16:33:11.656 | ERROR    | database.pgsql:init_db:29 - 数据库初始化失败: Module "models" not found
+2025-04-24 16:33:11.657 | ERROR    | core.lifespan:lifespan:106 - 数据库连接初始化失败: Module "models" not found
+2025-04-24 16:33:11.658 | CRITICAL | core.lifespan:lifespan:108 - 应用无法正常启动，请检查数据库配置
+2025-04-24 17:34:48.153 | ERROR    | database.pgsql:init_db:44 - 数据库初始化失败: password authentication failed for user "root"
+2025-04-24 17:34:48.154 | ERROR    | database.pgsql:init_db:45 - 数据库连接详细错误
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 380
+               │     └ 3
+               └ <function _main at 0x000001B9A74522A0>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 380
+           │    └ <function BaseProcess._bootstrap at 0x000001B9A73405E0>
+           └ <SpawnProcess name='SpawnProcess-6' parent=7744 started>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000001B9A733BB00>
+    └ <SpawnProcess name='SpawnProcess-6' parent=7744 started>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000001B9ABF63230>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-6' parent=7744 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-6' parent=7744 started>
+    │    └ <function subprocess_started at 0x000001B9AB8E2A20>
+    └ <SpawnProcess name='SpawnProcess-6' parent=7744 started>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=924, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001B9ABF638F0>>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=924, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x000001B9AB8E1DA0>
+           │       │   └ <uvicorn.server.Server object at 0x000001B9ABF638F0>
+           │       └ <function run at 0x000001B9A76CE8E0>
+           └ <module 'asyncio' from 'C:\\Users\\pxll\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000001B9ABF2E6C0>
+           │      └ <function Runner.run at 0x000001B9A90D6B60>
+           └ <asyncio.runners.Runner object at 0x000001B9ABF63770>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\uvicorn\s...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000001B9A90D47C0>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000001B9ABF63770>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000001B9A90D4720>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001B9A90D6520>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001B9A789A8E0>
+    └ <Handle Task.task_wakeup(<Future finis...user "root"')>)>
+  File "C:\Users\pxll\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...user "root"')>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...user "root"')>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...user "root"')>)>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 86, in main
+    await app(scope, self.receive, self.send)
+          │   │      │    │        │    └ <function LifespanOn.send at 0x000001B9AC00F920>
+          │   │      │    │        └ <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>
+          │   │      │    └ <function LifespanOn.receive at 0x000001B9AC00F9C0>
+          │   │      └ <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>
+          │   └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001B9ABB68080>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+                 │    │   │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+                 │    │   └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001B9AC0082C0>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001B9ABB68080>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\fastapi\applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+                           │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+                           └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │                │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │                └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001B9ABFE1430>
+          └ <fastapi.applications.FastAPI object at 0x000001B9AC0082C0>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\starlette\middleware\errors.py", line 149, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          │    └ <starlette.middleware.base.BaseHTTPMiddleware object at 0x000001B9AC009070>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001B9ABFE1430>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\starlette\middleware\base.py", line 26, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001B9AB7A0CE0>
+          └ <starlette.middleware.base.BaseHTTPMiddleware object at 0x000001B9AC009070>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\starlette\middleware\cors.py", line 75, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001B9AC009310>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001B9AB7A0CE0>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 55, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001B9AC0092B0>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001B9AC009310>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │   └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          │    └ <fastapi.routing.APIRouter object at 0x000001B9AC008D70>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001B9AC0092B0>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\starlette\routing.py", line 707, in __call__
+    await self.lifespan(scope, receive, send)
+          │    │        │      │        └ <bound method LifespanOn.send of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │        │      └ <bound method LifespanOn.receive of <uvicorn.lifespan.on.LifespanOn object at 0x000001B9ABF8C6E0>>
+          │    │        └ {'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}, 'app': <fastapi.applications.FastAPI obj...
+          │    └ <function Router.lifespan at 0x000001B9AB718540>
+          └ <fastapi.routing.APIRouter object at 0x000001B9AC008D70>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\starlette\routing.py", line 677, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               │    │                └ <fastapi.applications.FastAPI object at 0x000001B9AC0082C0>
+               │    └ <function register_tortoise.<locals>.orm_lifespan at 0x000001B9AC01F9C0>
+               └ <fastapi.routing.APIRouter object at 0x000001B9AC008D70>
+
+  File "C:\Users\pxll\Desktop\newfastapi\core\lifespan.py", line 108, in lifespan
+    await init_db(app)
+          │       └ <fastapi.applications.FastAPI object at 0x000001B9AC0082C0>
+          └ <function init_db at 0x000001B9ABA03060>
+
+> File "C:\Users\pxll\Desktop\newfastapi\database\pgsql.py", line 38, in init_db
+    result = await conn.execute_query("SELECT 1")
+                   │    └ <function AsyncpgDBClient.execute_query at 0x000001B9AC1C94E0>
+                   └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 35, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+                 │    │                     │      │       └ {}
+                 │    │                     │      └ ('SELECT 1',)
+                 │    │                     └ <function AsyncpgDBClient.execute_query at 0x000001B9AC1C9440>
+                 │    └ <function AsyncpgDBClient._translate_exceptions at 0x000001B9AC1C8F40>
+                 └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 87, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+                 │    │      │       └ {}
+                 │    │      └ ('SELECT 1',)
+                 │    └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+                 └ <function AsyncpgDBClient.execute_query at 0x000001B9AC1C9440>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 134, in execute_query
+    async with self.acquire_connection() as connection:
+               │    └ <function AsyncpgDBClient.acquire_connection at 0x000001B9AC1C9080>
+               └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\tortoise\backends\base\client.py", line 341, in __aenter__
+    await self.ensure_connection()
+          │    └ <function PoolConnectionWrapper.ensure_connection at 0x000001B9ABB9E2A0>
+          └ <tortoise.backends.base.client.PoolConnectionWrapper object at 0x000001B9ABF60650>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\tortoise\backends\base\client.py", line 337, in ensure_connection
+    await self.client.create_connection(with_db=True)
+          │    │      └ <function AsyncpgDBClient.create_connection at 0x000001B9AC01F740>
+          │    └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+          └ <tortoise.backends.base.client.PoolConnectionWrapper object at 0x000001B9ABF60650>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 59, in create_connection
+    self._pool = await self.create_pool(password=self.password, **self._template)
+    │    │             │    │                    │    │           │    └ {'host': 'localhost', 'port': 5432, 'user': 'root', 'database': 'postgres', 'min_size': 1, 'max_size': 5, 'connection_class':...
+    │    │             │    │                    │    │           └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+    │    │             │    │                    │    └ '******'
+    │    │             │    │                    └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+    │    │             │    └ <function AsyncpgDBClient.create_pool at 0x000001B9AC1C8220>
+    │    │             └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+    │    └ None
+    └ <tortoise.backends.asyncpg.client.AsyncpgDBClient object at 0x000001B9ABB1A330>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 70, in create_pool
+    return await asyncpg.create_pool(None, **kwargs)
+                 │       │                   └ {'password': '******', 'host': 'localhost', 'port': 5432, 'user': 'root', 'database': 'postgres', 'min_size': 1, 'max_size': ...
+                 │       └ <function create_pool at 0x000001B9AC1365C0>
+                 └ <module 'asyncpg' from 'C:\\Users\\pxll\\Desktop\\newfastapi\\venv\\Lib\\site-packages\\asyncpg\\__init__.py'>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\pool.py", line 403, in _async__init__
+    await self._initialize()
+          │    └ <function Pool._initialize at 0x000001B9AC1549A0>
+          └ <asyncpg.pool.Pool object at 0x000001B9ABF8B690>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\pool.py", line 430, in _initialize
+    await first_ch.connect()
+          │        └ <function PoolConnectionHolder.connect at 0x000001B9AC154180>
+          └ <asyncpg.pool.PoolConnectionHolder object at 0x000001B9AC1D17C0>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\pool.py", line 128, in connect
+    self._con = await self._pool._get_new_connection()
+    │    │            │    └ <member '_pool' of 'PoolConnectionHolder' objects>
+    │    │            └ <asyncpg.pool.PoolConnectionHolder object at 0x000001B9AC1D17C0>
+    │    └ <member '_con' of 'PoolConnectionHolder' objects>
+    └ <asyncpg.pool.PoolConnectionHolder object at 0x000001B9AC1D17C0>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\pool.py", line 502, in _get_new_connection
+    con = await connection.connect(
+                │          └ <function connect at 0x000001B9AC080B80>
+                └ <module 'asyncpg.connection' from 'C:\\Users\\pxll\\Desktop\\newfastapi\\venv\\Lib\\site-packages\\asyncpg\\connection.py'>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\connection.py", line 2329, in connect
+    return await connect_utils._connect(
+                 │             └ <function _connect at 0x000001B9AC1156C0>
+                 └ <module 'asyncpg.connect_utils' from 'C:\\Users\\pxll\\Desktop\\newfastapi\\venv\\Lib\\site-packages\\asyncpg\\connect_utils....
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\connect_utils.py", line 991, in _connect
+    conn = await _connect_addr(
+                 └ <function _connect_addr at 0x000001B9AC114FE0>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\connect_utils.py", line 828, in _connect_addr
+    return await __connect_addr(params, True, *args)
+                 │              │              └ (('localhost', 5432), <_WindowsSelectorEventLoop running=True closed=False debug=False>, ConnectionConfiguration(command_time...
+                 │              └ ConnectionParameters(user='root', password='******', database='postgres', ssl=<ssl.SSLContext object at 0x000001B9AC1D18D0>, ...
+                 └ <function __connect_addr at 0x000001B9AC115080>
+  File "C:\Users\pxll\Desktop\newfastapi\venv\Lib\site-packages\asyncpg\connect_utils.py", line 876, in __connect_addr
+    await connected
+          └ <Future finished exception=InvalidPasswordError('password authentication failed for user "root"')>
+
+asyncpg.exceptions.InvalidPasswordError: password authentication failed for user "root"
+2025-04-24 17:34:48.266 | ERROR    | core.lifespan:lifespan:111 - 数据库连接初始化失败: password authentication failed for user "root"
+2025-04-24 17:34:48.267 | CRITICAL | core.lifespan:lifespan:113 - 应用无法正常启动，请检查数据库配置
+2025-04-24 23:15:00.449 | ERROR    | api.internal.user.user:upload_avatar:342 - 头像上传失败: name 'current_user' is not defined

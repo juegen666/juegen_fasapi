@@ -3,7 +3,7 @@ from typing import Any
 class BaseResponse(BaseModel):
     code: int
     message: str
-    data: Any
+    data: Anyddddd
 
 
 def success_response(message: str, data: Any = None):
